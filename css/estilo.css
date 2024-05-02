@@ -27,7 +27,7 @@ span{
 
 /* index */
 .jumbotron{
-    background-image: url(/assets/industria.jpg);
+    background-image: url(../assets/industria.jpg);
     height: 450px;
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ span{
 }
 
 .nleft{
-    background-image: url(/assets/frentecontroll.jpg);
+    background-image: url(../assets/frentecontroll.jpg);
     border: 4px solid #333;
     box-shadow: 0 0 15px white;
     height: 350px;
