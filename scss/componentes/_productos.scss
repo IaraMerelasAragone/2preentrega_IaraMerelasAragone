@@ -1,0 +1,39 @@
+/* productos */
+.prodestructura{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    padding: 20px;
+}
+
+.h1prod{
+    font-size: 25px;
+}
+
+.cards{
+    text-align: center;
+    font-size: 25px;
+    padding: 40px;
+    margin-top: 20px;
+    text-shadow: 0 0 5px #fff;
+    font-weight: bolder;
+}
+
+.prod{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 5px solid rgba(0, 0, 0, 0.455);
+    margin-bottom: 30px;
+}
+
+.detalles{
+    font-weight: bold;
+}
+
+.card-img{
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}

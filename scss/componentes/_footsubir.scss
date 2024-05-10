@@ -1,0 +1,35 @@
+/* footer */
+footer{
+    background-color: #333;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer a{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: black;
+}
+
+/* subir */
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: #333;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #fff;
+    color: #fff;
+}

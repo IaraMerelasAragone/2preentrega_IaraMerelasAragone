@@ -1,0 +1,97 @@
+/* index */
+.jumbotron{
+    background-image: url(../assets/industria.jpg);
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.bienvenidos{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border: 4px solid #333333a5;
+}
+
+.envio{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
+
+.envio h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.envio p{
+    padding: 10px;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 300px);
+    padding: 20px;
+    margin-top: 25px;
+    grid-gap: 5px;
+}
+
+.item{
+    border: 4px solid #333;
+    background-position: center;
+    background-size: cover;
+}
+
+.item1{
+    background-image: url(../assets/c106.jpg);
+}
+
+.item2{
+    background-image: url(../assets/bison.25t.jpg);
+}
+
+.item3{
+    background-image: url(../assets/bob.30.jpg);
+}
+
+.item4{
+    background-image: url(../assets/bs346.jpg);
+}
+
+.item5{
+    background-image: url(../assets/bull.20m-2.jpg);
+}
+
+.item6{
+    background-image: url(../assets/batcorr.jpg);
+}
+
+.item7{
+    background-image: url(../assets/cerrmagnet.jpg);
+}
+
+.item8{
+    background-image: url(../assets/digi209.jpg);
+}
+
+.soluciones{
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.soluciones img{
+    border-radius: 2%;
+    height: 250px;
+    width: 300px;
+}
+
+.infoinicio{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.infoninicio h3{
+    font-size: 20px;
+}
