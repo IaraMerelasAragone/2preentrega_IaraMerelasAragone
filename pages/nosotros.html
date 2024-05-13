@@ -20,7 +20,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="d-flex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html">Inicio</a>
@@ -51,40 +51,76 @@
                 <div class="nleft col sm-6"></div>
                 <div class="nright col sm-6">
                 <h2>Es hora de conocernos...</h2>
-                <p>Nuestra casa central se ubica en Mar del Plata.</p>
-                <p>Hace más de 25 años que nos dedicamos a ofrecer los mejores sistemas para automatizar todo tipo de  aberturas, barreras, puertas automáticas, cortinas, etc.</p>
+                <h3>Nuestra casa central se ubica en Mar del Plata.</h3>
+                <p>Hace más de 25 años que nos dedicamos a ofrecer los mejores sistemas para automatizar todo tipo de  aberturas, barreras, puertas automáticas, cortinas, etc. Unimos tecnología de países líderes en lo referente a Automatización con electrónica de avanzada desarrollada por nuestra firma. Abastecemos con nuestros productos a Empresas e Instaladores de todo el país.</p>
+                <p>Vea nuestra linea de productos y contáctese con nosotros, juntos encontraremos la mejor respuesta para su cliente.</p>
+                <div>
+                    <a href="../pages/productos.html" class="btn btn-secondary">Productos</a>
+                </div>
                 </div>
             </div>
         </div>
 
-    <!-- container + row + col inicia -->
-    <section class="container-fluid unir">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <p>Unimos tecnología de países líderes en lo referente a Automatización con electrónica de avanzada desarrollada por nuestra firma.</p>
-                <img src="../assets/tub-serie-40.jpg" alt="roller" width="300px">
+        <div class="infonosotros">
+        <h4>Tratar de mejorar siempre!</h4>
+        <p>Podemos mejorar continuamente gracias a la confiabilidad y retroalimentación de nuestro clientes, que nos han acompañado todos estos años. Queremos tomar un paso más allá y proveer nuevas herramientas para ayudar y explicar como utilizar mejor y más rápido los productos y hacerlos más amigables en la implementación. </p>
+        <div class="detalles">
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <p>Abastecemos con nuestros productos a Empresas e Instaladores de todo el país.</p>
-                <img src="../assets/groove.jpg" alt="groove" width="300px">
+                <h5 class="card-title">Web para Smartphones</h5>
+                <p class="card-desc">Ahora puede acceder y navegar en los productos desde cualquier lugar y solucionar requerimientos más rápido.</p>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <p>Vea nuestra linea de productos y contáctese con nosotros, juntos encontraremos la mejor respuesta para su cliente.</p>
-                <img src="../assets/levante.jpg" alt="levante" width="300px">
-            </div>
+                <h5 class="card-title">Web Scalable</h5>
+                <p class="card-desc">Se adapta al tamaño de la computadora, tablet o smartphone.</p>
         </div>
-    </section>
-    <!-- container + row + col fin -->
+        </div>
 
-    <div class="video">
-        <h2>Nuestra Empresa!</h2>
-        <iframe width="458" height="256" src="https://www.youtube.com/embed/MgmlG4pxsDM" title="Entrando a Controll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+        <!-- carousel inicia -->
+        <div class="container carouselcontroll">
+        <div class="row">
+        <article class="col-sm-12">
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- indicadores -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+            <!-- diapositivas -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../assets/tub-serie-40.jpg" alt="diapo0" width="50%">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/groove.jpg" alt="diapo1" width="50%">
+            </div>
+            <div class="carousel-item">
+                <img src="../assets/levante.jpg" alt="diapo2" width="50%">
+            </div>
+            <!-- controles derecha/izq -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        </article>
+        </div>
+    <!-- carousel fin -->
 
-    <div class="responsabilidad">
-        <h5>Responsabilidad General de Productos</h5>
-        <p>La información publicada en las páginas de información sobre los productos de la web son extractos de las hojas de datos de productos y es a título indicativo. Para obtener información detallada, por favor comuníquese por teléfono o email.</p>
-    </div>
+        <div class="video">
+            <h2>Nuestra Empresa!</h2>
+            <iframe width="458" height="256" src="https://www.youtube.com/embed/MgmlG4pxsDM" title="Entrando a Controll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div class="responsabilidad">
+            <h3>Responsabilidad General de Productos</h3>
+            <p>La información publicada en las páginas de información sobre los productos de la web son extractos de las hojas de datos de productos y es a título indicativo. Para obtener información detallada, por favor comuníquese por teléfono o email.</p>
+        </div>
     </div>
     </main>
 

@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-//font (ver si la dejo aca, iria en el body!)
+//font
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 //partials
@@ -21,3 +21,20 @@ html{
 @import "../scss/componentes/contacto";
 @import "../scss/componentes/footsubir";
 @import "../scss/componentes/mediaque";
+
+//font variable
+$font1: "Montserrat", sans-serif;
+
+//color
+$color1: white;
+$color2: #333;
+$color3: rgba(0, 0, 0, 0.3);
+
+//size
+$size1: 15px;
+$size2: 20px;
+$size3: 100px;
+$size4: 250px;
+
+
+
