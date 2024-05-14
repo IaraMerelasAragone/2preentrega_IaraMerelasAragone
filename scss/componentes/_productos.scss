@@ -1,20 +1,32 @@
+//color
+$color1: white;
+$color2: #333;
+$color3: rgba(0, 0, 0, 0.3);
+$color4: black;
+
+//size
+$size1: 15px;
+$size2: 20px;
+$size3: 100px;
+$size4: 250px;
+
 /* productos */
-.prodestructura{
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #333;
-    padding: 20px;
+.baseprod{
+    background-color: $color3;
+    color: $color2;
+    padding: $size2;
 }
 
-.h1prod{
+.baseprod h1{
     font-size: 25px;
 }
 
 .cards{
+    text-shadow: 0 0 5px #fff;
     text-align: center;
     font-size: 25px;
     padding: 40px;
     margin-top: 20px;
-    text-shadow: 0 0 5px #fff;
     font-weight: bolder;
 }
 
@@ -33,7 +45,7 @@
 }
 
 .card-img{
-    height: 250px;
     background-size: cover;
     background-position: center;
+    height: 250px;
 }

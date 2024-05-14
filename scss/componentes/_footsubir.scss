@@ -1,35 +1,49 @@
+//color
+$color1: white;
+$color2: #333;
+$color3: rgba(0, 0, 0, 0.3);
+$color4: black;
+
+//size
+$size1: 15px;
+$size2: 20px;
+$size3: 100px;
+$size4: 250px;
+
 /* footer */
 footer{
-    background-color: #333;
-    color: white;
-    font-size: 15px;
-    padding: 10px;
+    background-color: $color2;
+    color: $color1;
+    font-size: $size1;
+    padding: $size1;
     text-align: center;
-}
 
-footer a{
-    color: white;
-    font-size: 25px;
-    letter-spacing: 15px;
-    text-decoration: none;
-}
+    a{
+        color: $color1;
+        text-shadow: 0 0 2px $color1;
+        font-size: $size2 + 5;
+        letter-spacing: $size1;
+        text-decoration: none;
 
-footer a:hover{
-    color: black;
+        &:hover{
+            color: $color4;
+        }
+    }
+    
 }
 
 /* subir */
 .subir{
-    background-color: #333;
-    color: #fff;
-    box-shadow: 0 0 5px 5px #fff;
-    font-size: 20px;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
+    background-color: $color2;
+    color: $color1;
+    box-shadow: 0 0 5px 5px $color1;
+    font-size: $size2;
     position: fixed;
-    right: 40px;
-    bottom: 40px;
     text-align: center;
     border-radius: 50%;
+    right: $size2*2;
+    bottom: $size2*2;
+    height: $size2*2;
+    width: $size2*2;
+    line-height: $size2*2;
 }

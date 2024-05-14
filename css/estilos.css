@@ -16,19 +16,19 @@ html {
   font-size: 15px;
 }
 
-.nav-link {
-  color: white !important;
-}
-
 span {
   text-shadow: 0 0 2px white;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 /* index */
 .jumbotron {
   background-image: url(../assets/industria.jpg);
   color: white;
-  height: 450px;
+  height: 400px;
   background-size: cover;
   background-position: center;
 }
@@ -39,30 +39,29 @@ span {
   padding: 20px;
 }
 
-.envio {
+.baseinicio {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 50px;
+  padding: 58px;
   text-align: center;
 }
 
 .envio h2 {
   font-size: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .envio p {
-  font-size: 17px;
-  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .galeria {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(4, 350px);
-  padding: 5px;
-  margin-top: 20px;
-  grid-gap: 5px;
+  grid-template-rows: repeat(8, 180px);
+  padding: 60px;
+  grid-gap: 15px;
 }
 
 .item {
@@ -104,29 +103,39 @@ span {
 }
 
 .infoinicio {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 83.3333333333px;
 }
 
-.infoninicio h3 {
-  font-size: 15px;
+.infoinicio h3 {
+  font-size: 26px;
+}
+
+.infoinicio p {
+  font-size: 18px;
 }
 
 .soluciones {
-  margin-top: 15px;
-  padding: 30px;
+  margin-top: 40px;
+  padding: 10px;
 }
 
 /* nosotros */
-.nosestructura {
+.basenos {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 20px;
+  padding: 58px;
+}
+
+.basenos h1 {
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 22px;
 }
 
 .conocernos {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .nleft {
@@ -138,27 +147,75 @@ span {
   background-position: center;
 }
 
+.conocernos a {
+  box-shadow: 0 0 10px white;
+  font-size: 13px;
+}
+
 .infonosotros {
-  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 83.3333333333px;
+  text-align: center;
+}
+
+.infonosotros h4 {
+  font-size: 26px;
+}
+
+.infonosotros p {
+  font-size: 18px;
+}
+
+.detalles {
+  margin-top: 45px;
+  margin-bottom: 83.3333333333px;
+}
+
+.detalles h5 {
+  font-size: 23px;
+}
+
+.detalles p {
+  font-size: 16px;
+}
+
+.ico {
+  color: white;
+  text-shadow: 0 0 10px #333;
+  font-size: 20px;
+  margin: 20px 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.proyectos {
+  font-size: 26px;
+  margin-left: 50px;
+  margin-bottom: 30px;
 }
 
 .video {
-  margin-top: 35px;
+  margin-top: 40px;
   margin-bottom: 15px;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   overflow: auto;
 }
 
+.video h2 {
+  font-size: 33.3333333333px;
+  margin-bottom: 25px;
+}
+
 .responsabilidad {
-  margin-top: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
-  padding: 7px;
 }
 
 /* servicios */
-.servestructura {
+.baseserv {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 20px;
@@ -166,20 +223,7 @@ span {
 
 .caract {
   font-size: 28px;
-}
-
-.servi {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.sleft {
-  background-image: url(../assets/frentecontroll.jpg);
-  border: 4px solid #333;
-  box-shadow: 0 0 15px white;
-  height: 350px;
-  background-size: cover;
-  background-position: center;
+  text-align: center;
 }
 
 .feature {
@@ -188,10 +232,10 @@ span {
 }
 
 article {
+  box-shadow: 0 0 10px #333;
   border: 2px solid #fff;
   text-align: center;
   padding: 30px;
-  box-shadow: 0 0 10px #333;
 }
 
 article i {
@@ -210,10 +254,10 @@ article i {
 }
 
 .novedades i {
-  font-size: 30px;
   color: #fff;
-  margin: 20px 20px;
   text-shadow: 0 0 10px #333;
+  font-size: 30px;
+  margin: 20px 20px;
 }
 
 .garantia {
@@ -225,22 +269,22 @@ article i {
 }
 
 /* productos */
-.prodestructura {
+.baseprod {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 20px;
 }
 
-.h1prod {
+.baseprod h1 {
   font-size: 25px;
 }
 
 .cards {
+  text-shadow: 0 0 5px #fff;
   text-align: center;
   font-size: 25px;
   padding: 40px;
   margin-top: 20px;
-  text-shadow: 0 0 5px #fff;
   font-weight: bolder;
 }
 
@@ -259,19 +303,19 @@ article i {
 }
 
 .card-img {
-  height: 250px;
   background-size: cover;
   background-position: center;
+  height: 250px;
 }
 
 /* contacto */
-.formestructura {
+.basecont {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 50px;
 }
 
-.formestructura h1 {
+.basecont h1 {
   text-align: center;
   font-size: 30px;
 }
@@ -287,17 +331,16 @@ footer {
   background-color: #333;
   color: white;
   font-size: 15px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
 }
-
 footer a {
   color: white;
+  text-shadow: 0 0 2px white;
   font-size: 25px;
   letter-spacing: 15px;
   text-decoration: none;
 }
-
 footer a:hover {
   color: black;
 }
@@ -305,27 +348,27 @@ footer a:hover {
 /* subir */
 .subir {
   background-color: #333;
-  color: #fff;
-  box-shadow: 0 0 5px 5px #fff;
+  color: white;
+  box-shadow: 0 0 5px 5px white;
   font-size: 20px;
+  position: fixed;
+  text-align: center;
+  border-radius: 50%;
+  right: 40px;
+  bottom: 40px;
   height: 40px;
   width: 40px;
   line-height: 40px;
-  position: fixed;
-  right: 40px;
-  bottom: 40px;
-  text-align: center;
-  border-radius: 50%;
 }
 
-/* media queries productos */
+/* media queries ini */
 @media only screen and (min-width: 480px) {
   .galeria {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 180px);
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1330px) {
   .galeria {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -362,10 +405,10 @@ footer a:hover {
     grid-row: 4/5;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1330px) {
   .galeria {
-    grid-template-columns: repeat(4, 350px);
-    grid-template-rows: repeat(2, 350px);
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
   }
 }
 

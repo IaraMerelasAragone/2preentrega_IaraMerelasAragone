@@ -1,4 +1,4 @@
-/* media queries productos */
+/* media queries ini */
 @media only screen and (min-width:480px){
     .galeria{
         grid-template-columns: 1fr 1fr;
@@ -6,7 +6,7 @@
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px){
+@media only screen and (min-width:768px) and (max-width:1330px){
     .galeria{
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -50,9 +50,9 @@
     }
 }
 
-@media only screen and (min-width:1024px){
+@media only screen and (min-width:1330px){
     .galeria{
-        grid-template-columns: repeat(4, 350px);
-        grid-template-rows: repeat(2, 350px);
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(2, 300px);
     }
 }
