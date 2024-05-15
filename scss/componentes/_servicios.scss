@@ -1,53 +1,130 @@
+//color
+$color1: white;
+$color2: #333;
+$color3: rgba(0, 0, 0, 0.3);
+$color4: black;
+
+//@for
+$color5: gray;
+$color6: rgb(106, 102, 102);
+
+//size
+$size1: 15px;
+$size2: 20px;
+$size3: 100px;
+$size4: 250px;
+
 /* servicios */
 .baseserv{
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #333;
-    padding: 20px;
+    background-color: $color3;
+    color: $color2;
+    padding: ($size2*2) + 18;
 }
 
 .caract{
-    font-size: 28px;
+    margin-bottom: calc($size2*3);
+}
+
+.caract h1{
+    font-size: $size2 + 12;
+    margin-top: 3px;
+    margin-bottom: $size2;
     text-align: center;
+}
+
+.caract i{
+    color: $color1;
+    text-shadow: 0 0 10px $color2;
+    font-size: $size2;
+    margin: $size1 $size1;
+}
+
+.caract h2{
+    font-size: $size2 + 3;
+    margin-top: $size1 - 8;
+    margin-bottom: $size1;
+}
+
+.caract p{
+    font-size: $size1 + 2;
+    font-weight: bold;
+    margin-top: $size1 - 5;
+    margin-bottom: $size2;
 }
 
 .feature{
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 3px;
+    margin-bottom: $size1;
+    text-align: center;
 }
 
 article{
-    box-shadow: 0 0 10px #333;
-    border: 2px solid #fff;
-    text-align: center;
-    padding: 30px;
+    box-shadow: 0 0 10px $color2;
+    border: 2px solid $color1;
+    padding: calc($size2*3);
+
+    h3{
+        text-shadow: 0 0 10px whitesmoke;
+        font-size: $size2 + 5;
+        margin-top: $size1;
+        margin-bottom: $size2;
+    }
+
+    i{
+        color: $color3;
+        font-size: $size1 + 3;
+    }
+
+    p{
+        font-size: $size1 + 3;
+        margin: 7px 7px 7px 7px;
+    }
 }
 
-article i{
-    color:#333;
+@for $i from 1 through 3 {
+    .art#{$i}{
+        background-color: lighten($color5, $i * 5%);
+    }
+}
+
+@for $i from 4 through 6 {
+    .art#{$i}{
+        background-color: lighten($color6, $i * 5%);
+    }
 }
 
 .novedades{
-    margin-top: 20px;
+    margin-top: calc($size2*2);
+    padding: $size1;
     text-align: center;
-    padding: 7px;
 }
 
 .novedades h3{
-    margin-top: 25px;
-    font-size: 28px;
+    font-size: $size2 + 8;
+    margin-top: $size2;
 }
 
 .novedades i{
-    color: #fff;
-    text-shadow: 0 0 10px #333;
-    font-size: 30px;
-    margin: 20px 20px;
+    color: $color1;
+    text-shadow: 0 0 10px $color2;
+    font-size: calc($size3/3);
+    margin: $size2 $size2;
 }
 
 .garantia{
-    padding: 30px;
+    padding: $size2 + 10;
+}
+
+.garantia p{
+    font-size: $size1;
+    font-weight: bold;
 }
 
 .web{
-    padding: 30px;
+    padding: $size2 + 10;
+}
+
+.web p{
+    font-size: $size1;
+    font-weight: bold;
 }

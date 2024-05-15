@@ -29,7 +29,6 @@ footer{
             color: $color4;
         }
     }
-    
 }
 
 /* subir */
@@ -41,9 +40,9 @@ footer{
     position: fixed;
     text-align: center;
     border-radius: 50%;
-    right: $size2*2;
-    bottom: $size2*2;
-    height: $size2*2;
-    width: $size2*2;
-    line-height: $size2*2;
+    right: calc($size2*2);
+    bottom: calc($size2*2);
+    height: calc($size2*2);
+    width: calc($size2*2);
+    line-height: calc($size2*2);
 }

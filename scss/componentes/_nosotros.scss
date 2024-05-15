@@ -20,19 +20,19 @@ $size4: 250px;
 .basenos h1{
     font-size: $size2 + 15;
     margin-top: $size1 - 5;
-    margin-bottom: $size2 + 2;
+    margin-bottom: $size2;
 }
 
 .conocernos{
-    margin-top: $size2*2;
-    margin-bottom: $size2*3;
+    margin-top: $size1 + $size2;
+    margin-bottom: calc($size2*3);
 }
 
 .nleft{
     background-image: url(../assets/frentecontroll.jpg);
     border: 4px solid $color2;
     box-shadow: 0 0 $size1 $color1;
-    height: $size4 + $size3;
+    height: $size3 + $size4;
     background-size: cover;
     background-position: center;
 }
@@ -43,8 +43,8 @@ $size4: 250px;
 }
 
 .infonosotros{
-    margin-top: $size2*2;
-    margin-bottom: $size4/3;
+    margin-top: calc($size2*2);
+    margin-bottom: calc($size4/3);
     text-align: center;
 }
 
@@ -57,8 +57,8 @@ $size4: 250px;
 }
 
 .detalles{
-    margin-top: $size1*3;
-    margin-bottom: $size4/3;
+    margin-top: calc($size1*3);
+    margin-bottom: calc($size4/3);
 }
 
 .detalles h5{
@@ -73,28 +73,27 @@ $size4: 250px;
     color: $color1;
     text-shadow: 0 0 10px $color2;
     font-size: $size2;
-    margin: $size2 $size2;
     margin-top: $size1;
     margin-bottom: $size1;
 }
 
 .proyectos{
     font-size: $size2 + 6;
-    margin-left: $size3/2;
+    margin-left: calc($size3/2);
     margin-bottom: $size2 + 10;
 }
 
 .video{
-    margin-top: $size2*2;
+    margin-top: calc($size2*2);
     margin-bottom: $size1;
     align-items: center;
     text-align: center;
-    padding: $size2*2;
+    padding: calc($size2*2);
     overflow: auto;
 }
 
 .video h2{
-    font-size: $size3/3;
+    font-size: calc($size3/3);
     margin-bottom: $size1 + 10;
 }
 

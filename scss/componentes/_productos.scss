@@ -14,20 +14,36 @@ $size4: 250px;
 .baseprod{
     background-color: $color3;
     color: $color2;
-    padding: $size2;
+    padding: ($size2*2) + 5;
 }
 
 .baseprod h1{
-    font-size: 25;
+    font-size: $size2 + 7;
+    margin-bottom: $size1 + 4;
 }
 
-.cards{
-    text-shadow: 0 0 5px #fff;
-    text-align: center;
-    font-size: 25px;
-    padding: 40px;
-    margin-top: 20px;
+.baseprod h2{
+    text-shadow: 0 0 30px $color1;
+    font-size: $size2 + 5;
     font-weight: bolder;
+    padding: $size2;
+    margin-top: $size2;
+    margin-bottom: $size2;
+    animation-name: desliza;
+    animation-duration: 15s;
+}
+
+@keyframes desliza{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        transform: translateX(40%);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(10%);
+    }
 }
 
 .prod{
@@ -37,15 +53,27 @@ $size4: 250px;
 
 .card{
     border: 5px solid rgba(0, 0, 0, 0.455);
-    margin-bottom: 30px;
+    width: $size3 + $size4;
+    margin-bottom: calc($size3/2);
+    padding: $size1;
 }
 
-.detalles{
+.card-title{
+    font-size: $size2;
     font-weight: bold;
+    margin-bottom: $size1 - 10;
+    text-align: center;
 }
 
-.card-img{
+.card-desc{
+    font-size: $size1 + 3;
+    margin-top: $size1;
+    margin-bottom: $size1;
+    text-align: center;
+}
+
+.card img{
     background-size: cover;
     background-position: center;
-    height: 250px;
+    margin-top: $size2;
 }

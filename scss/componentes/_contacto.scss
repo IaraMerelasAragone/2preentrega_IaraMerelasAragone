@@ -1,17 +1,61 @@
+//color
+$color1: white;
+$color2: #333;
+$color3: rgba(0, 0, 0, 0.3);
+$color4: black;
+
+//size
+$size1: 15px;
+$size2: 20px;
+$size3: 100px;
+$size4: 250px;
+
 /* contacto */
 .basecont{
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #333;
-    padding: 50px;
+    background-color: $color3;
+    color: $color2;
+    padding: $size2 + 10;
 }
 
 .basecont h1{
+    font-size: $size2 + 12;
+    margin-top: $size1 - 4;
+    margin-bottom: calc($size4/5);
     text-align: center;
-    font-size: 30px;
+}
+
+.basecont h2{
+    font-size: $size2 + 2;
+    margin-top: $size1 - 4;
+}
+
+form{
+    padding: $size1;
+
+    h3{
+    font-size: $size1;
+    font-weight: bold;
+    margin-top: $size1 - 4;
+    margin-bottom: $size2;
+    }
 }
 
 .mapa{
-    margin-top: 50px;
+    margin-top: $size1 - 10;
+    margin-bottom: $size2;
+    padding: $size2;
     text-align: center;
     overflow: auto;
+}
+
+.mapa h4{
+    font-size: $size2 + 8;
+    margin-bottom: calc($size1*2);
+}
+
+.mapa i{
+    color: $color1;
+    text-shadow: 0 0 5px $color2;
+    font-size: calc($size3/3);
+    margin: $size1 $size1;
 }

@@ -46,7 +46,7 @@ $size4: 250px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 180px);
-    padding: $size2*3;
+    padding: calc($size2*3);
     grid-gap: $size1;
 }
 
@@ -90,7 +90,7 @@ $size4: 250px;
 
 .infoinicio{
     margin-top: $size1 - 5;
-    margin-bottom: $size4/3;
+    margin-bottom: calc($size4/3);
 }
 
 .infoinicio h3{
@@ -102,6 +102,6 @@ $size4: 250px;
 }
 
 .soluciones{
-    margin-top: $size2*2;
+    margin-top: calc($size2*2);
     padding: $size2 - 10;
 }
