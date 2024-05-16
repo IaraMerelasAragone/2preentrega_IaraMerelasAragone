@@ -11,27 +11,24 @@ $size3: 100px;
 $size4: 250px;
 
 /* contacto */
-.basecont{
+.base-cont{
     background-color: $color3;
     color: $color2;
     padding: $size2 + 10;
-}
-
-.basecont h1{
-    font-size: $size2 + 12;
-    margin-top: $size1 - 4;
-    margin-bottom: calc($size4/5);
-    text-align: center;
-}
-
-.basecont h2{
-    font-size: $size2 + 2;
-    margin-top: $size1 - 4;
+    h1{
+        font-size: $size2 + 12;
+        margin-top: $size1 - 4;
+        margin-bottom: calc($size4/5);
+        text-align: center;
+    }
+    h2{
+        font-size: $size2 + 2;
+        margin-top: $size1 - 4;
+    }
 }
 
 form{
     padding: $size1;
-
     h3{
     font-size: $size1;
     font-weight: bold;
@@ -46,16 +43,14 @@ form{
     padding: $size2;
     text-align: center;
     overflow: auto;
-}
-
-.mapa h4{
-    font-size: $size2 + 8;
-    margin-bottom: calc($size1*2);
-}
-
-.mapa i{
-    color: $color1;
-    text-shadow: 0 0 5px $color2;
-    font-size: calc($size3/3);
-    margin: $size1 $size1;
+    i{
+        color: $color1;
+        text-shadow: 0 0 5px $color2;
+        font-size: calc($size3/3);
+        margin: $size1 $size1;
+    }
+    h4{
+        font-size: $size2 + 8;
+        margin-bottom: calc($size1*2);
+    }
 }

@@ -39,7 +39,7 @@ span {
   padding: 20px;
 }
 
-.baseinicio {
+.base-inicio {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 58px;
@@ -50,7 +50,6 @@ span {
   font-size: 30px;
   margin-bottom: 35px;
 }
-
 .envio p {
   font-size: 18px;
   margin-bottom: 15px;
@@ -102,16 +101,14 @@ span {
   background-image: url(../assets/digi209.jpg);
 }
 
-.infoinicio {
+.info-inicio {
   margin-top: 10px;
   margin-bottom: 83.3333333333px;
 }
-
-.infoinicio h3 {
+.info-inicio h3 {
   font-size: 26px;
 }
-
-.infoinicio p {
+.info-inicio p {
   font-size: 18px;
 }
 
@@ -119,16 +116,18 @@ span {
   margin-top: 40px;
   padding: 10px;
 }
-
-/* nosotros */
-.basenos {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #333;
-  padding: 58px;
+.soluciones img {
+  margin-top: 40px;
 }
 
-.basenos h1 {
-  font-size: 35px;
+/* nosotros */
+.base-nos {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #333;
+  padding: 30px;
+}
+.base-nos h1 {
+  font-size: 32px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -147,36 +146,38 @@ span {
   background-position: center;
 }
 
+.conocernos h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
 .conocernos a {
   box-shadow: 0 0 10px white;
-  font-size: 13px;
+  font-size: 15px;
 }
 
-.infonosotros {
-  margin-top: 40px;
-  margin-bottom: 83.3333333333px;
+.info-nosotros {
+  margin-top: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
-
-.infonosotros h4 {
+.info-nosotros h4 {
   font-size: 26px;
+  margin-bottom: 20px;
 }
-
-.infonosotros p {
+.info-nosotros p {
   font-size: 18px;
 }
 
 .detalles {
   margin-top: 45px;
-  margin-bottom: 83.3333333333px;
+  margin-bottom: 20px;
 }
-
 .detalles h5 {
   font-size: 23px;
 }
-
 .detalles p {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .ico {
@@ -187,21 +188,13 @@ span {
   margin-bottom: 15px;
 }
 
-.proyectos {
-  font-size: 26px;
-  margin-left: 50px;
-  margin-bottom: 30px;
-}
-
 .video {
-  margin-top: 40px;
   margin-bottom: 15px;
+  padding: 40px;
   align-items: center;
   text-align: center;
-  padding: 40px;
   overflow: auto;
 }
-
 .video h2 {
   font-size: 33.3333333333px;
   margin-bottom: 25px;
@@ -214,7 +207,7 @@ span {
 }
 
 /* servicios */
-.baseserv {
+.base-serv {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 58px;
@@ -223,32 +216,29 @@ span {
 .caract {
   margin-bottom: 60px;
 }
-
 .caract h1 {
   font-size: 32px;
   margin-top: 3px;
   margin-bottom: 20px;
   text-align: center;
 }
-
-.caract i {
-  color: white;
-  text-shadow: 0 0 10px #333;
-  font-size: 20px;
-  margin: 15px 15px;
-}
-
 .caract h2 {
   font-size: 23px;
   margin-top: 7px;
   margin-bottom: 15px;
 }
-
 .caract p {
   font-size: 17px;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+.ray {
+  color: white;
+  text-shadow: 0 0 10px #333;
+  font-size: 20px;
+  margin: 15px 15px;
 }
 
 .feature {
@@ -306,12 +296,10 @@ article p {
   padding: 15px;
   text-align: center;
 }
-
 .novedades h3 {
   font-size: 28px;
   margin-top: 20px;
 }
-
 .novedades i {
   color: white;
   text-shadow: 0 0 10px #333;
@@ -322,34 +310,30 @@ article p {
 .garantia {
   padding: 30px;
 }
-
 .garantia p {
   font-size: 15px;
   font-weight: bold;
 }
 
 .web {
-  padding: 30px;
+  padding: 20px;
 }
-
 .web p {
   font-size: 15px;
   font-weight: bold;
 }
 
 /* productos */
-.baseprod {
+.base-prod {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 45px;
+  padding: 30px;
 }
-
-.baseprod h1 {
+.base-prod h1 {
   font-size: 27px;
   margin-bottom: 19px;
 }
-
-.baseprod h2 {
+.base-prod h2 {
   text-shadow: 0 0 30px white;
   font-size: 25px;
   font-weight: bolder;
@@ -383,6 +367,11 @@ article p {
   margin-bottom: 50px;
   padding: 15px;
 }
+.card img {
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+}
 
 .card-title {
   font-size: 20px;
@@ -398,27 +387,19 @@ article p {
   text-align: center;
 }
 
-.card img {
-  background-size: cover;
-  background-position: center;
-  margin-top: 20px;
-}
-
 /* contacto */
-.basecont {
+.base-cont {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
   padding: 30px;
 }
-
-.basecont h1 {
+.base-cont h1 {
   font-size: 32px;
   margin-top: 11px;
   margin-bottom: 50px;
   text-align: center;
 }
-
-.basecont h2 {
+.base-cont h2 {
   font-size: 22px;
   margin-top: 11px;
 }
@@ -440,17 +421,15 @@ form h3 {
   text-align: center;
   overflow: auto;
 }
-
-.mapa h4 {
-  font-size: 28px;
-  margin-bottom: 30px;
-}
-
 .mapa i {
   color: white;
   text-shadow: 0 0 5px #333;
   font-size: 33.3333333333px;
   margin: 15px 15px;
+}
+.mapa h4 {
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 
 /* footer */

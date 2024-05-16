@@ -25,21 +25,22 @@ $size4: 250px;
     padding: $size2;
 }
 
-.baseinicio{
+.base-inicio{
     background-color: $color3;
     color: $color2;
     padding: ($size2*2) + 18;
     text-align: center;
 }
 
-.envio h2{
+.envio{
+    h2{
     font-size: $size2 + 10;
     margin-bottom: $size1 + $size2;
-}
-
-.envio p{
+    }
+    p{
     font-size: $size1 + 3;
     margin-bottom: $size1;
+    }
 }
 
 .galeria{
@@ -88,20 +89,21 @@ $size4: 250px;
     background-image: url(../assets/digi209.jpg);
 }
 
-.infoinicio{
+.info-inicio{
     margin-top: $size1 - 5;
     margin-bottom: calc($size4/3);
-}
-
-.infoinicio h3{
-    font-size: $size2 + 6;
-}
-
-.infoinicio p{
-    font-size: $size1 + 3;
+    h3{
+        font-size: $size2 + 6;
+    }
+    p{
+        font-size: $size1 + 3;
+    }
 }
 
 .soluciones{
     margin-top: calc($size2*2);
     padding: $size2 - 10;
+    img{
+        margin-top: calc($size2*2);
+    }
 }

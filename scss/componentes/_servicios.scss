@@ -15,7 +15,7 @@ $size3: 100px;
 $size4: 250px;
 
 /* servicios */
-.baseserv{
+.base-serv{
     background-color: $color3;
     color: $color2;
     padding: ($size2*2) + 18;
@@ -23,33 +23,30 @@ $size4: 250px;
 
 .caract{
     margin-bottom: calc($size2*3);
+    h1{
+        font-size: $size2 + 12;
+        margin-top: 3px;
+        margin-bottom: $size2;
+        text-align: center;
+    }
+    h2{
+        font-size: $size2 + 3;
+        margin-top: $size1 - 8;
+        margin-bottom: $size1;
+    }
+    p{
+        font-size: $size1 + 2;
+        font-weight: bold;
+        margin-top: $size1 - 5;
+        margin-bottom: $size2;
+    }
 }
 
-.caract h1{
-    font-size: $size2 + 12;
-    margin-top: 3px;
-    margin-bottom: $size2;
-    text-align: center;
-}
-
-.caract i{
+.ray{
     color: $color1;
     text-shadow: 0 0 10px $color2;
     font-size: $size2;
     margin: $size1 $size1;
-}
-
-.caract h2{
-    font-size: $size2 + 3;
-    margin-top: $size1 - 8;
-    margin-bottom: $size1;
-}
-
-.caract p{
-    font-size: $size1 + 2;
-    font-weight: bold;
-    margin-top: $size1 - 5;
-    margin-bottom: $size2;
 }
 
 .feature{
@@ -62,19 +59,16 @@ article{
     box-shadow: 0 0 10px $color2;
     border: 2px solid $color1;
     padding: calc($size2*3);
-
     h3{
         text-shadow: 0 0 10px whitesmoke;
         font-size: $size2 + 5;
         margin-top: $size1;
         margin-bottom: $size2;
     }
-
     i{
         color: $color3;
         font-size: $size1 + 3;
     }
-
     p{
         font-size: $size1 + 3;
         margin: 7px 7px 7px 7px;
@@ -97,34 +91,30 @@ article{
     margin-top: calc($size2*2);
     padding: $size1;
     text-align: center;
-}
-
-.novedades h3{
-    font-size: $size2 + 8;
-    margin-top: $size2;
-}
-
-.novedades i{
-    color: $color1;
-    text-shadow: 0 0 10px $color2;
-    font-size: calc($size3/3);
-    margin: $size2 $size2;
+    h3{
+        font-size: $size2 + 8;
+        margin-top: $size2;
+    }
+    i{
+        color: $color1;
+        text-shadow: 0 0 10px $color2;
+        font-size: calc($size3/3);
+        margin: $size2 $size2;
+    }
 }
 
 .garantia{
     padding: $size2 + 10;
-}
-
-.garantia p{
-    font-size: $size1;
-    font-weight: bold;
+    p{
+        font-size: $size1;
+        font-weight: bold;
+    }
 }
 
 .web{
-    padding: $size2 + 10;
-}
-
-.web p{
+    padding: $size2;
+    p{
     font-size: $size1;
     font-weight: bold;
+    }
 }

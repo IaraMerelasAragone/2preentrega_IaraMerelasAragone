@@ -11,16 +11,15 @@ $size3: 100px;
 $size4: 250px;
 
 /* nosotros */
-.basenos{
+.base-nos{
     background-color: $color3;
     color: $color2;
-    padding: ($size2*2) + 18;
-}
-
-.basenos h1{
-    font-size: $size2 + 15;
-    margin-top: $size1 - 5;
-    margin-bottom: $size2;
+    padding: $size2 + 10;
+    h1{
+        font-size: $size2 + 12;
+        margin-top: $size1 - 5;
+        margin-bottom: $size2;
+    }
 }
 
 .conocernos{
@@ -37,36 +36,40 @@ $size4: 250px;
     background-position: center;
 }
 
-.conocernos a{
-    box-shadow: 0 0 10px $color1;
-    font-size: $size2 - 7;
+.conocernos{
+    h3{
+        font-size: $size2 - 2;
+        margin-top: $size2;
+        margin-bottom: $size1;
+    }
+    a{
+        box-shadow: 0 0 10px $color1;
+        font-size: $size1;
+    }
 }
 
-.infonosotros{
-    margin-top: calc($size2*2);
-    margin-bottom: calc($size4/3);
+.info-nosotros{
+    margin-top: calc($size3/2);
+    margin-bottom: $size2 + 10;
     text-align: center;
-}
-
-.infonosotros h4{
-    font-size: $size2 + 6;
-}
-
-.infonosotros p{
-    font-size: $size1 + 3;
+    h4{
+        font-size: $size2 + 6;
+        margin-bottom: $size2;
+    }
+    p{
+        font-size: $size1 + 3;
+    }
 }
 
 .detalles{
     margin-top: calc($size1*3);
-    margin-bottom: calc($size4/3);
-}
-
-.detalles h5{
-    font-size: $size2 + 3;
-}
-
-.detalles p{
-    font-size: $size1 + 1;
+    margin-bottom: $size2;
+    h5{
+        font-size: $size2 + 3;
+    }
+    p{
+        font-size: $size1 + 10;
+    }
 }
 
 .ico{
@@ -77,24 +80,16 @@ $size4: 250px;
     margin-bottom: $size1;
 }
 
-.proyectos{
-    font-size: $size2 + 6;
-    margin-left: calc($size3/2);
-    margin-bottom: $size2 + 10;
-}
-
 .video{
-    margin-top: calc($size2*2);
     margin-bottom: $size1;
+    padding: calc($size2*2);
     align-items: center;
     text-align: center;
-    padding: calc($size2*2);
     overflow: auto;
-}
-
-.video h2{
-    font-size: calc($size3/3);
-    margin-bottom: $size1 + 10;
+    h2{
+        font-size: calc($size3/3);
+        margin-bottom: $size1 + 10;
+    }
 }
 
 .responsabilidad{
