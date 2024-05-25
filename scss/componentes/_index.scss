@@ -14,7 +14,7 @@ $size4: 250px;
 .jumbotron{
     background-image: url(../assets/industria.jpg);
     color: $color1;
-    height: $size4 + 150;
+    height: 70vh;
     background-size: cover;
     background-position: center;
 }
@@ -22,6 +22,7 @@ $size4: 250px;
 .bienvenidos{
     background-color: $color3;
     border: 4px solid #333333a5;
+    height: 30vh;
     padding: $size2;
 }
 

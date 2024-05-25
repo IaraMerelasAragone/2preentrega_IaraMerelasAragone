@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Controll Automatización, Envíos a todo el País, Venta a Instaladores">
     <meta name="keyword" content="CONTROLL, AUTOMATIZACIÓN, ENVIAMOS, UNIMOS, STOCK, CONTROL, GARANTÍA, VELOCIDAD, SOLUCIONES, ABERTURAS, BARRERAS, PUERTAS AUTOMÁTICAS, CORTINAS, MOTOR, TECNOLOGÍA, ELECTRÓNICA, EMPRESAS, INSTALADORES, ARGENTINA, PRODUCTOS, CALIDAD, RAPIDEZ, GARANTÍA">
+    <!-- aos inicia -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos fin -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bs 5.1 inicia -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,17 +18,30 @@
 </head>
 
 <body>
+    <!-- breadcrumb inicia -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li class="breadcrumb-item"><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="breadcrumb-item"><a href="../pages/servicios.html">Servicios</a></li>
+            <li class="breadcrumb-item"><a href="../pages/productos.html">Productos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">página actual</li>
+            <li class="breadcrumb-item"><a href="../pages/contacto.html">Contacto</i></a></li>
+        </ol>
+    </nav>
+    <!-- breadcrumb fin -->
+
     <!-- nav inicia -->
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Controll <span>Automatización</span></a>
+            <a class="navbar-brand" href="../index.html">Controll <span>Automatización</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="../index.html"><i class="fa-solid fa-house"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
@@ -46,78 +62,182 @@
     <!-- nav fin -->
 
     <main class="base-prod">
-        <h1>Productos para todos los rubros y exigencias</h1>
-        <h2>AUTOMATISMOS</h2>
-        <section class="prod">
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">Levadizo Zed</h3>
-                <p class="card-desc">El motor para levadizos</p>
-                <img src="../assets/levadizozed.jpg" alt="levadizozed">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">Corredizo DKC400</h3>
-                <p class="card-desc">Estética en corredizos</p>
-                <img src="../assets/bull.5.jpg" alt="bull5">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">Batiene BILL30</h3>
-                <p class="card-desc">Simpleza y elegancia</p>
-                <img src="../assets/bill.30.jpg" alt="bill30">
-            </article>
-        </section>
-        <!-- card finaliza -->
-        <h2 class="cards">PORTONES</h2>
-        <section class="prod">
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">BOB 30</h3>
-                <p class="card-desc">Estética superior</p>
-                <img src="../assets/bob.30.jpg" alt="bob30">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">BULL 15M-20M</h3>
-                <p class="card-desc">Línea pesada italiana</p>
-                <img src="../assets/bull.20m-2.jpg" alt="bull20">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">BISON 25T</h3>
-                <p class="card-desc">Línea super pesada italiana</p>
-                <img src="../assets/bison.25t.jpg" alt="bison25t">
-            </article>
-        </section>
-        <!-- card finaliza -->
-        <h2 class="cards">PUERTAS</h2>
-        <section class="prod">
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">PA 100</h3>
-                <p class="card-desc">Puertas corredizas intensivas</p>
-                <img src="../assets/pa100.jpg" alt="pa100">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">Cerradura Magnética</h3>
-                <img src="../assets/cerrmagnet.jpg" alt="cerrmagnet">
-            </article>
-        <!-- card finaliza -->
-        <!-- card inicia -->
-            <article class="card">
-                <h3 class="card-title">Proyect Single</h3>
-                <p class="card-desc">Cerradura digital</p>
-                <img src="../assets/digi209.jpg" alt="digi209">
-            </article>
-        <!-- card finaliza -->
-        </section>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h1 class="text-center" data-aos="fade-down">Productos para todos los rubros y exigencias</h1>
+                </div>
+            </div>
+
+            <p class="text-center">AUTOMATISMOS</p>
+            <div class="row">
+    <!-- producto 1 automatismos -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/levadizozed.jpg" class="card-img-top img-fluid" alt="levadizozed">
+                    <div class="card-body">
+                        <h5 class="card-title">Levadizo Zed</h5>
+                        <p class="card-text">El motor para levadizos</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 2 automatismos -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/bull.5.jpg" class="card-img-top img-fluid" alt="bull5">
+                    <div class="card-body">
+                        <h5 class="card-title">Corredizo DKC400</h5>
+                        <p class="card-text">Estética en corredizos</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 3 automatismos -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/bill.30.jpg" class="card-img-top img-fluid" alt="bill30">
+                    <div class="card-body">
+                        <h5 class="card-title">Batiene BILL30</h5>
+                        <p class="card-text">Simpleza y elegancia</p>
+                    </div>
+                    </div>
+                </div>
+
+            <p class="text-center">PORTONES</p>
+        <!-- producto 1 portones -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/bob.30.jpg" class="card-img-top img-fluid" alt="bob30">
+                    <div class="card-body">
+                        <h5 class="card-title">BOB 30</h5>
+                        <p class="card-text">Estética superior</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 2 portones -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/bull.20m-2.jpg" class="card-img-top img-fluid" alt="bull20">
+                    <div class="card-body">
+                        <h5 class="card-title">BULL 15M-20M</h5>
+                        <p class="card-text">Línea pesada italiana</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 3 portones -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/bison.25t.jpg" class="card-img-top img-fluid" alt="bison25t">
+                    <div class="card-body">
+                        <h5 class="card-title">BISON 25T</h5>
+                        <p class="card-text">Línea super pesada italiana</p>
+                    </div>
+                    </div>
+                </div>
+
+            <p class="text-center">PUERTAS</p>
+        <!-- producto 1 puertas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/controlacceso.jpg" class="card-img-top img-fluid" alt="acceso">
+                    <div class="card-body">
+                        <h5 class="card-title">Control acceso</h5>
+                        <p class="card-text">A teclado y proximidad</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 2 puertas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/cerrmagnet.jpg" class="card-img-top img-fluid" alt="cerrmagnet">
+                    <div class="card-body">
+                        <h5 class="card-title">Cerradura Magnética</h5>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 3 puertas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/digi209.jpg"class="card-img-top img-fluid" alt="digi209">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyect Single</h5>
+                        <p class="card-text">Cerradura digital</p>
+                    </div>
+                    </div>
+                </div>
+
+        <p class="text-center">CORTINAS</p>
+        <!-- producto 1 cortinas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/tub-serie-50.jpg" class="card-img-top img-fluid" alt="tub50">
+                    <div class="card-body">
+                        <h5 class="card-title">Tubular 50</h5>
+                        <p class="card-text">Persianias y cortinas</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 2 cortinas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/tub-serie-40.jpg" class="card-img-top img-fluid" alt="tub40">
+                    <div class="card-body">
+                        <h5 class="card-title">Roller black out</h5>
+                        <p class="card-text">Oculta lo justo</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 3 cortinas -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/tub-serie-60.jpg"class="card-img-top img-fluid" alt="tub60">
+                    <div class="card-body">
+                        <h5 class="card-title">Tubular 60</h5>
+                        <p class="card-text">Cortinas semi pesadas</p>
+                    </div>
+                    </div>
+                </div>
+
+        <p class="text-center">GARAGES</p>
+        <!-- producto 1 garages -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/batcorr.jpg" class="card-img-top img-fluid" alt="batcorr">
+                    <div class="card-body">
+                        <h5 class="card-title">Batcorr</h5>
+                        <p class="card-text">Batiente para uso pesado</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 2 garages -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/tokey.jpg" class="card-img-top img-fluid" alt="tokey">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokey</h5>
+                        <p class="card-text">Contactor a llave tokey</p>
+                    </div>
+                    </div>
+                </div>
+        <!-- producto 3 garages -->
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <img src="../assets/cerrad-crom.jpg"class="card-img-top img-fluid" alt="cerradcrom">
+                    <div class="card-body">
+                        <h5 class="card-title">Cerraduras</h5>
+                        <p class="card-text">Cerraduras cromadas</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <h5>Configuración a medidad</h5>
+            <h6>Puede controlar configuraciones especiales o prearmadas para casos especiales, cableados, frecuencias, actualizaciones, reduciendo los tiempos de puesta en marcha</h6>
+            <i class="fa-solid fa-handshake-simple"></i>
+            <h5>Transferencia de conocimientos</h5>
+            <h6>Algunas soluciones ya fueron alcanzadas por otros clientes, le ayudamos a encontrarlas para acelerar y optimizar su negocio, analizaremos los detalles y le proveremos una solución.</h6>
+        </div>
     </main>
 
     <footer>
@@ -139,6 +259,12 @@
         <i class="fa-solid fa-arrow-up"></i>
     <!-- subir fin -->
 
+    <!-- aos inicia -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- aos fin -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
     </script>

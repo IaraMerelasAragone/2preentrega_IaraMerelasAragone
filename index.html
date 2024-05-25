@@ -14,10 +14,23 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <!-- bs 5.1 fin -->
     <link rel="stylesheet" href="./css/estilos.css"/>
-    <title>👷🏽Bienvenidos a Controll Automatización, automaticemos juntos el futuro!</title>
+    <title>👷🏽Bienvenidos a Controll Automatización | Automaticemos juntos el futuro.</title>
 </head>
 
 <body>
+    <!-- breadcrumb inicia -->
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html"><i class="fa-solid fa-house"></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page">página actual</li>
+            <li class="breadcrumb-item"><a href="./pages/nosotros.html">Nosotros</a></li>
+            <li class="breadcrumb-item"><a href="./pages/servicios.html">Servicios</a></li>
+            <li class="breadcrumb-item"><a href="./pages/productos.html">Productos</a></li>
+            <li class="breadcrumb-item"><a href="./pages/contacto.html">Contacto</i></a></li>
+        </ol>
+    </nav>
+    <!-- breadcrumb fin -->
+    
     <!-- nav inicia -->
     <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
@@ -28,7 +41,7 @@
             <div class="justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./index.html"><i class="fa-solid fa-house"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -94,27 +107,46 @@
             <p>Despachamos a todo el país en tiempos record, para lograr que pueda automatizar a tiempo.</p>
         </div>
 
-    <!-- container + row + col inicia -->
-        <div class="container-fluid soluciones">
-            <div class="row">
-                <article class="col-sm-4">
-                    <h4>Soluciones para Domicilios</h4>
-                    <p>Cuando se requiere un producto confiable y de poco uso, lo mas importante es reducir los reclamos a cero.</p>
-                    <img src="./assets/domicilio.jpg" alt="domicilio" width="190px">
-                </article>
-                <article class="col-sm-4">
-                    <h4>Soluciones para Industrias</h4>
-                    <p>Cuando se requieren productos dimensionados para grandes exigencias se debe instalar automatismos para industrias.</p>
-                    <img src="./assets/portonindustria.jpg" alt="industria" width="190px">
-                </article>
-                <article class="col-sm-4">
-                    <h4>Soluciones para Negocios</h4>
-                    <p>Los negocios requieren productos que les permitan sortear las fallas y seguir operando. No pierdas ventas, asesoramos gratuitamente.</p>
-                    <img src="./assets/persiananegocio.jpg" alt="negocio" width="190px">
-                </article>
+    <!-- card inicia -->
+        <p class="text-center">SOLUCIONES</p>
+        <div class="row">
+    <!-- soluciones 1 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/domicilio.jpg" class="card-img-top img-fluid" alt="domicilio">
+                <div class="card-body">
+                    <h5 class="card-title">DOMICILIOS</h5>
+                    <p class="card-text">Cuando se requiere un producto confiable y de poco uso, lo mas importante es reducir los reclamos a cero.</p>
+                </div>
+                </div>
+            </div>
+    <!-- soluciones 2 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/portonindustria.jpg" class="card-img-top img-fluid" alt="industria">
+                <div class="card-body">
+                    <h5 class="card-title">INDUSTRIAS</h5>
+                    <p class="card-text">Cuando se requieren productos dimensionados para grandes exigencias se debe instalar automatismos para industrias.</p>
+                </div>
+                </div>
+            </div>
+    <!-- soluciones 3 -->
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img src="./assets/persiananegocio.jpg" class="card-img-top img-fluid" alt="negocio">
+                <div class="card-body">
+                    <h5 class="card-title">NEGOCIOS</h5>
+                    <p class="card-text">Los negocios requieren productos que les permitan sortear las fallas y seguir operando. No pierdas ventas, asesoramos gratuitamente.</p>
+                </div>
+                </div>
             </div>
         </div>
-    <!-- container + row + col fin -->
+    </div>
+    <!-- card fin -->
+
+        <div class="responsabilidad">
+        <h3>Responsabilidad General de Productos</h3>
+            <p>La información publicada en las páginas de información sobre los productos de la web son extractos de las hojas de datos de productos y es a título indicativo. Para obtener información detallada, por favor comuníquese por teléfono o email.</p>
         </div>
     </main>
 
