@@ -85,9 +85,9 @@ span {
 
 .item {
   border: 4px solid #333;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
   background-position: center;
   background-size: cover;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
 }
 
 .item1 {
@@ -135,14 +135,14 @@ span {
 }
 
 .solucion {
-  text-align: center;
   padding: 20px;
   margin-top: 20px;
+  text-align: center;
 }
 .solucion h4 {
   font-size: 25px;
-  margin-bottom: 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .solucion .row {
@@ -174,8 +174,8 @@ span {
 }
 
 .conocernos {
-  margin-bottom: 15px;
   padding: 20px;
+  margin-bottom: 15px;
 }
 .conocernos h2 {
   font-size: 27px;
@@ -197,6 +197,29 @@ span {
   height: 350px;
   background-size: cover;
   background-position: center;
+}
+
+.objetivos {
+  font-size: 24px;
+  margin-left: 17px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.featurenos {
+  padding: 20px;
+  text-align: center;
+}
+.featurenos i {
+  color: white;
+  text-shadow: 0 0 10px #333;
+  font-size: 20px;
+  margin: 15px 15px;
+}
+.featurenos h4 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .conocernos1 {
@@ -221,29 +244,6 @@ span {
   height: 315px;
   border: 0;
   box-shadow: 0px 5px 10px white;
-}
-
-.objetivos {
-  font-size: 24px;
-  margin-left: 17px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-
-.featurenos {
-  padding: 20px;
-  text-align: center;
-}
-.featurenos i {
-  color: white;
-  text-shadow: 0 0 10px #333;
-  font-size: 20px;
-  margin: 15px 15px;
-}
-.featurenos h4 {
-  font-size: 18px;
-  margin-top: 15px;
-  margin-bottom: 20px;
 }
 
 .info-nosotros {
@@ -413,8 +413,8 @@ article p {
 }
 .card {
   border: 5px solid rgba(0, 0, 0, 0.455);
-  padding: 15px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+  padding: 15px;
 }
 .card img {
   background-size: cover;
