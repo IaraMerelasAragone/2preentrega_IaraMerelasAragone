@@ -14,17 +14,33 @@ $size4: 250px;
 .base-nos{
     background-color: $color3;
     color: $color2;
-    padding: $size2 + 10;
+    padding: $size2;
+
     h1{
-        font-size: $size2 + 12;
+        font-size: $size2 + 10;
         margin-top: $size1 - 5;
-        margin-bottom: $size2;
+        margin-bottom: $size1;
     }
 }
 
 .conocernos{
-    margin-top: $size1 + $size2;
-    margin-bottom: calc($size2*3);
+    margin-bottom: $size1;
+    padding: 20px;
+
+    h2{
+        font-size: $size2 + 7;
+    }
+
+    h3{
+        font-size: $size2;
+        margin-top: $size2;
+        margin-bottom: $size1;
+    }
+
+    a{
+        box-shadow: 0 0 10px $color1;
+        font-size: $size1;
+    }
 }
 
 .nleft{
@@ -36,16 +52,20 @@ $size4: 250px;
     background-position: center;
 }
 
-.conocernos{
-    padding: 20px;
+.conocernos1{
+    margin: $size2;
+    padding: 15px;
+
     h3{
-        font-size: $size2 - 2;
+        font-size: $size2 + 5;
+        margin-top: $size2;
+        margin-bottom: $size2 + 10;
+    }
+
+    h4{
+        font-size: $size1 + 3;
         margin-top: $size2;
         margin-bottom: $size1;
-    }
-    a{
-        box-shadow: 0 0 10px $color1;
-        font-size: $size1;
     }
 }
 
@@ -62,39 +82,41 @@ $size4: 250px;
     border: 0;
 }
 
-.info-nosotros{
-    margin-top: calc($size3/2);
-    margin-bottom: $size2 + 10;
+.objetivos{
+    font-size: $size2 + 4;
+    margin-left: $size2 - 3;
+    margin-top: calc($size2*2);
+    margin-bottom: $size1 - 5;
+}
+
+.featurenos{
+    padding: $size2;
+    text-align: center;
+
     h4{
-        font-size: $size2 + 6;
+        font-size: $size1 + 3;
+        margin-top: $size1;
         margin-bottom: $size2;
     }
-    p{
-        font-size: $size1 + 3;
-    }
 }
 
-.detalles{
-    margin-top: calc($size1*3);
-    margin-bottom: $size2;
+.info-nosotros{
+    margin-top: $size2;
+    margin-bottom: $size2 + $size2;
+
+    i{
+        color: $color1;
+        text-shadow: 0 0 10px $color2;
+        font-size: $size1;
+        margin-top: $size1;
+        margin-bottom: $size1;
+    }
+
     h5{
-        font-size: $size2 + 3;
+        font-size: $size2;
     }
+
     p{
-        font-size: $size1 + 10;
+        font-size: $size2 - 2;
     }
-}
-
-.ico{
-    color: $color1;
-    text-shadow: 0 0 10px $color2;
-    font-size: $size2;
-    margin-top: $size1;
-    margin-bottom: $size1;
-}
-
-.responsabilidad{
-    margin-top: $size1;
-    margin-bottom: $size1;
-    text-align: center;
 }

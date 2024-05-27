@@ -14,20 +14,21 @@ $size4: 250px;
 .base-prod{
     background-color: $color3;
     color: $color2;
-    padding: $size2 + 10;
+    padding: $size2;
+
     h1{
-        font-size: $size2 + 7;
-        margin-bottom: $size1 + 4;
+        font-size: $size2 + 9;
+        margin-bottom: $size1;
     }
+
     h2{
         text-shadow: 0 0 30px $color1;
-        font-size: $size2 + 5;
-        font-weight: bolder;
-        padding: $size2;
-        margin-top: $size2;
-        margin-bottom: $size2;
+        font-size: $size2 + 2;
+        font-weight: bold;
+        margin-top: $size2 + 10;
+        margin-bottom: $size1;
         animation-name: desliza;
-        animation-duration: 15s;
+        animation-duration: 30s;
     }
 }
 
@@ -44,33 +45,49 @@ $size4: 250px;
     }
 }
 
-.prod{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-/* .card{
+.card{
     border: 5px solid rgba(0, 0, 0, 0.455);
-    width: $size3 + $size4;
-    margin-bottom: calc($size3/2);
     padding: $size1;
+
     img{
         background-size: cover;
         background-position: center;
-        margin-top: $size2;
     }
 }
 
 .card-title{
     font-size: $size2;
     font-weight: bold;
-    margin-bottom: $size1 - 10;
+    margin-bottom: 3px;
     text-align: center;
 }
 
-.card-desc{
-    font-size: $size1 + 3;
+.card-text{
+    font-size: $size1 + 2;
     margin-top: $size1;
-    margin-bottom: $size1;
     text-align: center;
-} */
+}
+
+.config{
+    margin-top: $size2;
+    padding: $size2;
+    text-align: center;
+
+    h3{
+        font-size: $size2 + 3;
+        margin-top: $size2;
+    }
+
+    h4{
+        font-size: $size1 + 2;
+        margin-top: $size2;
+        margin-bottom: $size2;
+    }
+
+    i{
+        color: $color1;
+        text-shadow: 0 0 10px $color2;
+        font-size: calc($size3/3);
+        margin: $size2 $size2;
+    }
+}

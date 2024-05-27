@@ -24,11 +24,28 @@ span {
   color: white !important;
 }
 
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.breadcrumb a {
+  color: #333;
+  font-size: 15px;
+  text-decoration: none;
+}
+
 /* index */
 .jumbotron {
   background-image: url(../assets/industria.jpg);
   color: white;
-  height: 70vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
 }
@@ -38,6 +55,9 @@ span {
   border: 4px solid rgba(51, 51, 51, 0.6470588235);
   height: 30vh;
   padding: 20px;
+}
+.bienvenidos a {
+  margin-top: 15px;
 }
 
 .base-inicio {
@@ -49,7 +69,7 @@ span {
 
 .envio h2 {
   font-size: 30px;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 .envio p {
   font-size: 18px;
@@ -60,7 +80,7 @@ span {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(8, 180px);
-  padding: 60px;
+  padding: 40px;
   grid-gap: 15px;
 }
 
@@ -103,39 +123,71 @@ span {
 }
 
 .info-inicio {
-  margin-top: 10px;
-  margin-bottom: 83.3333333333px;
+  margin-top: 20px;
 }
 .info-inicio h3 {
-  font-size: 26px;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 .info-inicio p {
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
-.soluciones {
-  margin-top: 40px;
-  padding: 10px;
+.solucion {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
 }
-.soluciones img {
-  margin-top: 40px;
+.solucion h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.solucion .row {
+  justify-content: center;
+}
+
+.respons {
+  margin-top: 20px;
+}
+.respons h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.respons p {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 /* nosotros */
 .base-nos {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 30px;
+  padding: 20px;
 }
 .base-nos h1 {
-  font-size: 32px;
+  font-size: 30px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .conocernos {
-  margin-top: 35px;
-  margin-bottom: 60px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.conocernos h2 {
+  font-size: 27px;
+}
+.conocernos h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.conocernos a {
+  box-shadow: 0 0 10px white;
+  font-size: 15px;
 }
 
 .nleft {
@@ -147,17 +199,19 @@ span {
   background-position: center;
 }
 
-.conocernos {
-  padding: 20px;
+.conocernos1 {
+  margin: 20px;
+  padding: 15px;
 }
-.conocernos h3 {
+.conocernos1 h3 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.conocernos1 h4 {
   font-size: 18px;
   margin-top: 20px;
   margin-bottom: 15px;
-}
-.conocernos a {
-  box-shadow: 0 0 10px white;
-  font-size: 15px;
 }
 
 .nmleft, .nmright {
@@ -173,58 +227,57 @@ span {
   border: 0;
 }
 
-.info-nosotros {
-  margin-top: 50px;
-  margin-bottom: 30px;
+.objetivos {
+  font-size: 24px;
+  margin-left: 17px;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
-.info-nosotros h4 {
-  font-size: 26px;
+
+.featurenos {
+  padding: 20px;
+  text-align: center;
+}
+.featurenos h4 {
+  font-size: 18px;
+  margin-top: 15px;
   margin-bottom: 20px;
+}
+
+.info-nosotros {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.info-nosotros i {
+  color: white;
+  text-shadow: 0 0 10px #333;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.info-nosotros h5 {
+  font-size: 20px;
 }
 .info-nosotros p {
   font-size: 18px;
-}
-
-.detalles {
-  margin-top: 45px;
-  margin-bottom: 20px;
-}
-.detalles h5 {
-  font-size: 23px;
-}
-.detalles p {
-  font-size: 25px;
-}
-
-.ico {
-  color: white;
-  text-shadow: 0 0 10px #333;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.responsabilidad {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
 }
 
 /* servicios */
 .base-serv {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 58px;
+  padding: 30px;
+}
+.base-serv h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .caract {
-  margin-bottom: 60px;
-}
-.caract h1 {
-  font-size: 32px;
-  margin-top: 3px;
-  margin-bottom: 20px;
-  text-align: center;
+  color: #333;
+  padding: 20px;
+  margin-bottom: 22px;
 }
 .caract h2 {
   font-size: 23px;
@@ -232,8 +285,7 @@ span {
   margin-bottom: 15px;
 }
 .caract p {
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -246,19 +298,19 @@ span {
 }
 
 .feature {
+  text-align: center;
   margin-top: 3px;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 article {
-  box-shadow: 0 0 10px #333;
   border: 2px solid white;
+  box-shadow: 0 0 10px #333;
   padding: 60px;
 }
 article h3 {
   text-shadow: 0 0 10px whitesmoke;
-  font-size: 25px;
+  font-size: 22px;
   margin-top: 15px;
   margin-bottom: 20px;
 }
@@ -272,27 +324,27 @@ article p {
 }
 
 .art1 {
-  background-color: #8d8d8d;
+  background-color: #7f7e82;
 }
 
 .art2 {
-  background-color: #9a9a9a;
+  background-color: #8c8b8e;
 }
 
 .art3 {
-  background-color: #a6a6a6;
+  background-color: #98979b;
 }
 
 .art4 {
-  background-color: #9d9999;
+  background-color: #8e8e91;
 }
 
 .art5 {
-  background-color: #a9a6a6;
+  background-color: #9b9b9e;
 }
 
 .art6 {
-  background-color: #b6b3b3;
+  background-color: #a8a8aa;
 }
 
 .novedades {
@@ -301,7 +353,7 @@ article p {
   text-align: center;
 }
 .novedades h3 {
-  font-size: 28px;
+  font-size: 27px;
   margin-top: 20px;
 }
 .novedades i {
@@ -315,37 +367,34 @@ article p {
   padding: 30px;
 }
 .garantia p {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 .web {
   padding: 20px;
 }
 .web p {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 17px;
 }
 
 /* productos */
 .base-prod {
   background-color: rgba(0, 0, 0, 0.3);
   color: #333;
-  padding: 30px;
+  padding: 20px;
 }
 .base-prod h1 {
-  font-size: 27px;
-  margin-bottom: 19px;
+  font-size: 29px;
+  margin-bottom: 15px;
 }
 .base-prod h2 {
   text-shadow: 0 0 30px white;
-  font-size: 25px;
-  font-weight: bolder;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
   animation-name: desliza;
-  animation-duration: 15s;
+  animation-duration: 30s;
 }
 
 @keyframes desliza {
@@ -360,36 +409,49 @@ article p {
     transform: translateY(10%);
   }
 }
-.prod {
-  display: flex;
-  justify-content: space-evenly;
+.card {
+  border: 5px solid rgba(0, 0, 0, 0.455);
+  padding: 15px;
+}
+.card img {
+  background-size: cover;
+  background-position: center;
 }
 
-/* .card{
-    border: 5px solid rgba(0, 0, 0, 0.455);
-    width: $size3 + $size4;
-    margin-bottom: calc($size3/2);
-    padding: $size1;
-    img{
-        background-size: cover;
-        background-position: center;
-        margin-top: $size2;
-    }
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 3px;
+  text-align: center;
 }
 
-.card-title{
-    font-size: $size2;
-    font-weight: bold;
-    margin-bottom: $size1 - 10;
-    text-align: center;
+.card-text {
+  font-size: 17px;
+  margin-top: 15px;
+  text-align: center;
 }
 
-.card-desc{
-    font-size: $size1 + 3;
-    margin-top: $size1;
-    margin-bottom: $size1;
-    text-align: center;
-} */
+.config {
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.config h3 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+.config h4 {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.config i {
+  color: white;
+  text-shadow: 0 0 10px #333;
+  font-size: 33.3333333333px;
+  margin: 20px 20px;
+}
+
 /* contacto */
 .base-cont {
   background-color: rgba(0, 0, 0, 0.3);
@@ -399,22 +461,31 @@ article p {
 .base-cont h1 {
   font-size: 32px;
   margin-top: 11px;
-  margin-bottom: 50px;
+  margin-bottom: 41.6666666667px;
   text-align: center;
 }
 .base-cont h2 {
-  font-size: 22px;
+  font-size: 21px;
   margin-top: 11px;
 }
 
-form {
-  padding: 15px;
-}
-form h3 {
+.requeridos {
   font-size: 15px;
   font-weight: bold;
   margin-top: 11px;
   margin-bottom: 20px;
+}
+
+.soporte h4 {
+  font-size: 23px;
+  margin-top: 50px;
+  text-align: center;
+}
+.soporte h5 {
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .mapa {
